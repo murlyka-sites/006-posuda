@@ -1,0 +1,19 @@
+.make#video
+	.container
+		.row
+			.col-xs-12
+				h2.make__title
+					| Процесс производства
+			.col-xs-12.col-sm-7.col-md-8
+				.make__video
+					<iframe height="395" src="https://www.youtube.com/embed/zqEg5-DbTAA" frameborder="0" allowfullscreen></iframe>
+			.col-xs-12.col-sm-5.col-md-4
+				form.form.make__form.clearfix
+					h3.form__title
+						| Оставьте заявку
+					input(type="text", placeholder="Имя", required)
+					input(type="text", placeholder="Телефон", required)
+					input(type="email", placeholder="E-mail", required)
+					.form__btn-wrap
+						button(type="submit")
+							| Отправить
